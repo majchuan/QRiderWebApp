@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="QdHLg3WlJ3F6AFVeQ2YTHoleDLmah3adbKFdItlglrU" charset="utf-8" />
+    <title>Q-Riders</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="X-UA-Compatible" content="IE=edge" />
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/font/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/themes/base/css")
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body id="page-top" class="index">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button typeof="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Q-Riders</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Gallary</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About US</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#price">Price</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="~/Images/QRider8.jpg" alt="">
+                    <div class="intro-text">
+                        <span class="name">Q-Riders</span>
+                        <hr class="star-light">
+                        <span class="skills">Canada Leading Plush Animal Rider Company</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="body">
+        @RenderBody()
+    </div>
+
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>Center Point Mall<br /> 6464 Yonge Street, Toronto ON M2M 3X4</p>
+                    </div>
+                    <div class="footer-col col-md-4" >
+                        <h3>Around The Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>QRider Contact Email</h3>
+                        <p><a href="mailto:info@qriders.ca">Send Mail to Q-Riders</a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Q-Riders 2014
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/QRiders")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url> 
+    <loc>http://www.qriders.ca/</loc> 
+    <image:image>
+       <image:loc>http://www.qriders.ca/Images/QRider1.jpg</image:loc>
+       <image:caption>QRiders1</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.qriders.ca/Images/QRider2.jpg</image:loc>
+       <image:caption>QRiders2</image:caption>
+    </image:image>
+	<image:image>
+       <image:loc>http://www.qriders.ca/Images/QRider3.jpg</image:loc>
+       <image:caption>QRiders3</image:caption>
+    </image:image>
+	<image:image>
+       <image:loc>http://www.qriders.ca/Images/QRider4.jpg</image:loc>
+       <image:caption>QRiders4</image:caption>
+    </image:image>
+	<image:image>
+       <image:loc>http://www.qriders.ca/Images/QRider5.jpg</image:loc>
+       <image:caption>QRiders5</image:caption>
+    </image:image>
+	<image:image>
+       <image:loc>http://www.qriders.ca/Images/QRider6.jpg</image:loc>
+       <image:caption>QRiders6</image:caption>
+    </image:image>
+  </url>
+</urlset>
